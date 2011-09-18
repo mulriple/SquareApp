@@ -13,6 +13,8 @@
 		59A2C6D61426B32500F7CAD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59A2C6D41426B32500F7CAD5 /* InfoPlist.strings */; };
 		59A2C6D81426B32500F7CAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6D71426B32500F7CAD5 /* main.m */; };
 		59A2C6DC1426B32500F7CAD5 /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6DB1426B32500F7CAD5 /* SAAppDelegate.m */; };
+		59A2C6E41426B36100F7CAD5 /* SAEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6E31426B36100F7CAD5 /* SAEmployee.m */; };
+		59A2C6E71426B43F00F7CAD5 /* SAEmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6E61426B43F00F7CAD5 /* SAEmployeesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		59A2C6CB1426B32500F7CAD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59A2C6CD1426B32500F7CAD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59A2C6CF1426B32500F7CAD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59A2C6D31426B32500F7CAD5 /* SquareApp-Info.plist */ = {isa = PBXFileReference; path = "SquareApp-Info.plist"; sourceTree = "<group>"; };
+		59A2C6D31426B32500F7CAD5 /* SquareApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SquareApp-Info.plist"; sourceTree = "<group>"; };
 		59A2C6D51426B32500F7CAD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59A2C6D71426B32500F7CAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59A2C6D91426B32500F7CAD5 /* SquareApp-Prefix.pch */ = {isa = PBXFileReference; path = "SquareApp-Prefix.pch"; sourceTree = "<group>"; };
-		59A2C6DA1426B32500F7CAD5 /* SAAppDelegate.h */ = {isa = PBXFileReference; path = SAAppDelegate.h; sourceTree = "<group>"; };
+		59A2C6D91426B32500F7CAD5 /* SquareApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SquareApp-Prefix.pch"; sourceTree = "<group>"; };
+		59A2C6DA1426B32500F7CAD5 /* SAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAppDelegate.h; sourceTree = "<group>"; };
 		59A2C6DB1426B32500F7CAD5 /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
+		59A2C6E21426B36100F7CAD5 /* SAEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAEmployee.h; sourceTree = "<group>"; };
+		59A2C6E31426B36100F7CAD5 /* SAEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAEmployee.m; sourceTree = "<group>"; };
+		59A2C6E51426B43F00F7CAD5 /* SAEmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAEmployeesViewController.h; sourceTree = "<group>"; };
+		59A2C6E61426B43F00F7CAD5 /* SAEmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAEmployeesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +78,7 @@
 		59A2C6D11426B32500F7CAD5 /* SquareApp */ = {
 			isa = PBXGroup;
 			children = (
-				59A2C6DA1426B32500F7CAD5 /* SAAppDelegate.h */,
-				59A2C6DB1426B32500F7CAD5 /* SAAppDelegate.m */,
+				59A2C6E81426B69400F7CAD5 /* Classes */,
 				59A2C6D21426B32500F7CAD5 /* Supporting Files */,
 			);
 			path = SquareApp;
@@ -88,6 +93,43 @@
 				59A2C6D91426B32500F7CAD5 /* SquareApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59A2C6E81426B69400F7CAD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59A2C6E91426B69B00F7CAD5 /* Application */,
+				59A2C6EA1426B6A500F7CAD5 /* View Controllers */,
+				59A2C6EB1426B6B800F7CAD5 /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		59A2C6E91426B69B00F7CAD5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				59A2C6DA1426B32500F7CAD5 /* SAAppDelegate.h */,
+				59A2C6DB1426B32500F7CAD5 /* SAAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		59A2C6EA1426B6A500F7CAD5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59A2C6E51426B43F00F7CAD5 /* SAEmployeesViewController.h */,
+				59A2C6E61426B43F00F7CAD5 /* SAEmployeesViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		59A2C6EB1426B6B800F7CAD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59A2C6E21426B36100F7CAD5 /* SAEmployee.h */,
+				59A2C6E31426B36100F7CAD5 /* SAEmployee.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +195,8 @@
 			files = (
 				59A2C6D81426B32500F7CAD5 /* main.m in Sources */,
 				59A2C6DC1426B32500F7CAD5 /* SAAppDelegate.m in Sources */,
+				59A2C6E41426B36100F7CAD5 /* SAEmployee.m in Sources */,
+				59A2C6E71426B43F00F7CAD5 /* SAEmployeesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +265,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SquareApp/SquareApp-Prefix.pch";
 				INFOPLIST_FILE = "SquareApp/SquareApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -232,6 +277,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SquareApp/SquareApp-Prefix.pch";
 				INFOPLIST_FILE = "SquareApp/SquareApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

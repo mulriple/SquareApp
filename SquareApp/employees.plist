@@ -10,7 +10,7 @@
 		<key>title</key>
 		<string>CEO</string>
 		<key>imageName</key>
-		<string>jack</string>
+		<string>jack.jpeg</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -20,7 +20,7 @@
 		<key>title</key>
 		<string>Lead iOS Developer</string>
 		<key>imageName</key>
-		<string>tristan</string>
+		<string>tristan.jpeg</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -30,7 +30,7 @@
 		<key>title</key>
 		<string>Newbie</string>
 		<key>imageName</key>
-		<string>dan</string>
+		<string>dan.jpeg</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -40,7 +40,7 @@
 		<key>title</key>
 		<string>iOS Developer</string>
 		<key>imageName</key>
-		<string>mike</string>
+		<string>mike.jpeg</string>
 	</dict>
 </array>
 </plist>

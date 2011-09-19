@@ -17,6 +17,10 @@
 		59A2C6E71426B43F00F7CAD5 /* SAEmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6E61426B43F00F7CAD5 /* SAEmployeesViewController.m */; };
 		59A2C6ED1426BB2C00F7CAD5 /* employees.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59A2C6EC1426BB2C00F7CAD5 /* employees.plist */; };
 		59A2C6F21426BE0F00F7CAD5 /* SAEmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6F11426BE0F00F7CAD5 /* SAEmployeeCell.m */; };
+		59A2C6F71427035200F7CAD5 /* tristan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59A2C6F41427035200F7CAD5 /* tristan.jpeg */; };
+		59A2C6F81427035200F7CAD5 /* jack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59A2C6F51427035200F7CAD5 /* jack.jpeg */; };
+		59A2C6F91427035200F7CAD5 /* dan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59A2C6F61427035200F7CAD5 /* dan.jpeg */; };
+		59A2C6FB1427039A00F7CAD5 /* mike.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 59A2C6FA1427039A00F7CAD5 /* mike.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		59A2C6EC1426BB2C00F7CAD5 /* employees.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = employees.plist; sourceTree = "<group>"; };
 		59A2C6F01426BE0F00F7CAD5 /* SAEmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAEmployeeCell.h; sourceTree = "<group>"; };
 		59A2C6F11426BE0F00F7CAD5 /* SAEmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAEmployeeCell.m; sourceTree = "<group>"; };
+		59A2C6F41427035200F7CAD5 /* tristan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tristan.jpeg; sourceTree = "<group>"; };
+		59A2C6F51427035200F7CAD5 /* jack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jack.jpeg; sourceTree = "<group>"; };
+		59A2C6F61427035200F7CAD5 /* dan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dan.jpeg; sourceTree = "<group>"; };
+		59A2C6FA1427039A00F7CAD5 /* mike.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mike.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 			children = (
 				59A2C6E81426B69400F7CAD5 /* Classes */,
 				59A2C6EE1426BC8900F7CAD5 /* Data */,
+				59A2C6F31427025100F7CAD5 /* Images */,
 				59A2C6D21426B32500F7CAD5 /* Supporting Files */,
 			);
 			path = SquareApp;
@@ -156,6 +165,17 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		59A2C6F31427025100F7CAD5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				59A2C6F41427035200F7CAD5 /* tristan.jpeg */,
+				59A2C6F51427035200F7CAD5 /* jack.jpeg */,
+				59A2C6F61427035200F7CAD5 /* dan.jpeg */,
+				59A2C6FA1427039A00F7CAD5 /* mike.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,6 +228,10 @@
 			files = (
 				59A2C6D61426B32500F7CAD5 /* InfoPlist.strings in Resources */,
 				59A2C6ED1426BB2C00F7CAD5 /* employees.plist in Resources */,
+				59A2C6F71427035200F7CAD5 /* tristan.jpeg in Resources */,
+				59A2C6F81427035200F7CAD5 /* jack.jpeg in Resources */,
+				59A2C6F91427035200F7CAD5 /* dan.jpeg in Resources */,
+				59A2C6FB1427039A00F7CAD5 /* mike.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -51,7 +51,7 @@
 			SAEmployee *employee = [[SAEmployee alloc] init];
 			
 			for (NSString *key in serializedEmployee) {
-				[employee setValue:[serializedEmployee valueForKey:@"key"] forKey:key];
+				[employee setValue:[serializedEmployee valueForKey:key] forKey:key];
 			}
 			
 			[employees addObject:employee];

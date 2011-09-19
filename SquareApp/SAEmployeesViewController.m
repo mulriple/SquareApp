@@ -22,11 +22,24 @@
 - (void)loadView {
 	[super loadView];
 	
+	// Set up the table view
+	
 	self.tableView = [[[UITableView alloc] initWithFrame:CGRectMake(0.0f, 44.0f, [[self view] bounds].size.width, [[self view] bounds].size.height - 44.0f) style:UITableViewStylePlain] autorelease];
 	[tableView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
 	[tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
 	[tableView setDataSource:self];
 	[tableView setDelegate:self];
+	
+	[[self view] addSubview:self.tableView];
+	
+	// Add a header
+	
+	UILabel *headerLabel = [[UILabel alloc] initWithFrame:CGRectInset(CGRectMake(0.0f, 0.0f, [[self view] bounds].size.width, 44.0f), 12.0f, 6.0f)];
+	[headerLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin];
+	[headerLabel setText:@"Employees"];
+	[headerLabel setFont:[UIFont boldSystemFontOfSize:16.0f]];
+	[[self view] addSubview:headerLabel];
+	[headerLabel release];
 }
 
 - (void)viewDidUnload {

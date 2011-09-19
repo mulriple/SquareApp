@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Jack Dorsey</string>
+		<key>imageURL</key>
+		<string>http://a2.twimg.com/profile_images/1497814040/4-up_on_8-13-11_at_5.24_PM__4_reasonably_small.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tristan O&apos;Tierney</string>
+		<key>imageURL</key>
+		<string>http://a3.twimg.com/profile_images/726835909/headshot_new_512_reasonably_small.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dan Barry</string>
+		<key>imageURL</key>
+		<string>http://a3.twimg.com/profile_images/59318058/n30408690_33614537_9476_square_reasonably_small.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mike Lewis</string>
+		<key>imageURL</key>
+		<string>http://a2.twimg.com/profile_images/1159726243/octo6_reasonably_small.jpg</string>
+	</dict>
+</array>
+</plist>

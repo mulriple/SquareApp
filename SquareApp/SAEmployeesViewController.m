@@ -7,6 +7,7 @@
 //
 
 #import "SAEmployeesViewController.h"
+#import "SAEmployeeCell.h"
 #import "SAEmployee.h"
 
 @implementation SAEmployeesViewController
@@ -75,15 +76,18 @@
 	UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"cell"];
 	
 	if (!cell) {
-		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"] autorelease];
+		cell = [[[SAEmployeeCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"] autorelease];
 	}
 	
 	SAEmployee *employee = [[SAEmployee employees] objectAtIndex:indexPath.row];
 	
-	[[cell textLabel] setText:[employee name]];
-	[[cell detailTextLabel] setText:[employee title]];
+	[(SAEmployeeCell *)cell setEmployee:employee];
 	
 	return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	return [SAEmployeeCell cellHeight];
 }
 
 #pragma mark -

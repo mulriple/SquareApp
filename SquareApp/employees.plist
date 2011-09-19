@@ -5,24 +5,40 @@
 	<dict>
 		<key>name</key>
 		<string>Jack Dorsey</string>
+		<key>job</key>
+		<string>Make Square great</string>
+		<key>title</key>
+		<string>CEO</string>
 		<key>imageName</key>
 		<string>jack</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Tristan O&apos;Tierney</string>
+		<key>job</key>
+		<string>Tame Objective-C</string>
+		<key>title</key>
+		<string>Lead iOS Developer</string>
 		<key>imageName</key>
 		<string>tristan</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Dan Barry</string>
+		<key>job</key>
+		<string>Learn about Square</string>
+		<key>title</key>
+		<string>Newbie</string>
 		<key>imageName</key>
 		<string>dan</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Mike Lewis</string>
+		<key>job</key>
+		<string>Shift Pixels</string>
+		<key>title</key>
+		<string>iOS Developer</string>
 		<key>imageName</key>
 		<string>mike</string>
 	</dict>

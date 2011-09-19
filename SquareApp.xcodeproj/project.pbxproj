@@ -16,6 +16,7 @@
 		59A2C6E41426B36100F7CAD5 /* SAEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6E31426B36100F7CAD5 /* SAEmployee.m */; };
 		59A2C6E71426B43F00F7CAD5 /* SAEmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6E61426B43F00F7CAD5 /* SAEmployeesViewController.m */; };
 		59A2C6ED1426BB2C00F7CAD5 /* employees.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59A2C6EC1426BB2C00F7CAD5 /* employees.plist */; };
+		59A2C6F21426BE0F00F7CAD5 /* SAEmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2C6F11426BE0F00F7CAD5 /* SAEmployeeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		59A2C6E51426B43F00F7CAD5 /* SAEmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAEmployeesViewController.h; sourceTree = "<group>"; };
 		59A2C6E61426B43F00F7CAD5 /* SAEmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAEmployeesViewController.m; sourceTree = "<group>"; };
 		59A2C6EC1426BB2C00F7CAD5 /* employees.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = employees.plist; sourceTree = "<group>"; };
+		59A2C6F01426BE0F00F7CAD5 /* SAEmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAEmployeeCell.h; sourceTree = "<group>"; };
+		59A2C6F11426BE0F00F7CAD5 /* SAEmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAEmployeeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				59A2C6E91426B69B00F7CAD5 /* Application */,
 				59A2C6EA1426B6A500F7CAD5 /* View Controllers */,
+				59A2C6EF1426BDF300F7CAD5 /* Views */,
 				59A2C6EB1426B6B800F7CAD5 /* Models */,
 			);
 			name = Classes;
@@ -141,6 +145,15 @@
 				59A2C6EC1426BB2C00F7CAD5 /* employees.plist */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		59A2C6EF1426BDF300F7CAD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59A2C6F01426BE0F00F7CAD5 /* SAEmployeeCell.h */,
+				59A2C6F11426BE0F00F7CAD5 /* SAEmployeeCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +222,7 @@
 				59A2C6DC1426B32500F7CAD5 /* SAAppDelegate.m in Sources */,
 				59A2C6E41426B36100F7CAD5 /* SAEmployee.m in Sources */,
 				59A2C6E71426B43F00F7CAD5 /* SAEmployeesViewController.m in Sources */,
+				59A2C6F21426BE0F00F7CAD5 /* SAEmployeeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

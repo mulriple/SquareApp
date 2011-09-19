@@ -352,6 +352,7 @@
 				59A2C6E11426B32500F7CAD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

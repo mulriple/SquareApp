@@ -8,12 +8,12 @@
 
 #import "SAEmployeeCell.h"
 
-#define THUMBNAIL_SIZE 60.0f
+#define THUMBNAIL_SIZE ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone ? 60.0f : 120.0f)
 
 #define KEY_LABEL_FONT [UIFont boldSystemFontOfSize:16.0f]
 #define VALUE_LABEL_FONT [UIFont systemFontOfSize:16.0f]
 
-#define LABEL_HEIGHT 22.0f
+#define LABEL_HEIGHT ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone ? 22.0f : 28.0f)
 
 @implementation SAEmployeeCell
 
@@ -46,6 +46,7 @@
 		[_thumbnailImageView setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin];
 		[_thumbnailImageView setBackgroundColor:[UIColor blackColor]];
 		[_thumbnailImageView setContentMode:UIViewContentModeScaleAspectFill];
+		[_thumbnailImageView setClipsToBounds:YES];
 		[[self contentView] addSubview:_thumbnailImageView];
 		
 		// Setup Name labels
@@ -143,7 +144,11 @@
 #pragma mark Class Methods
 
 + (CGFloat)cellHeight {
-	return 120.0f;
+	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+		return 120.0f;
+	}
+	
+	return 140.0f;
 }
 
 @end

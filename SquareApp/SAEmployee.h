@@ -19,7 +19,7 @@
 
 // Bonus Points
 
-@property (nonatomic, retain) NSString *imageURL;
+@property (nonatomic, retain) NSString *imageName;
 
 // Class Methods
 

@@ -18,7 +18,7 @@
 @synthesize title;
 @synthesize yearsEmployed;
 
-@synthesize imageURL;
+@synthesize imageName;
 
 #pragma mark -
 #pragma mark NSObject
@@ -28,7 +28,7 @@
 	[job release];
 	[title release];
 	
-	[imageURL release];
+	[imageName release];
 	
 	[super dealloc];
 }

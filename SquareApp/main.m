@@ -10,9 +10,10 @@
 
 #import "SAAppDelegate.h"
 
-int main(int argc, char *argv[])
-{
-	@autoreleasepool {
-	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([SAAppDelegate class]));
-	}
+int main(int argc, char *argv[]) {
+	
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    int retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SAAppDelegate class]));
+    [pool release];
+    return retVal;
 }

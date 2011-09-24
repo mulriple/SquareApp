@@ -27,6 +27,7 @@
 	[name release];
 	[job release];
 	[title release];
+	[yearsEmployed release];
 	
 	[imageName release];
 	

@@ -15,7 +15,7 @@
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *job;
 @property (nonatomic, retain) NSString *title;
-@property (nonatomic, assign) NSTimeInterval *yearsEmployed;
+@property (nonatomic, retain) NSNumber *yearsEmployed;
 
 // Bonus Points
 

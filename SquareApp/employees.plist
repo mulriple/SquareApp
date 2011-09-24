@@ -11,6 +11,8 @@
 		<string>CEO</string>
 		<key>imageName</key>
 		<string>jack.jpeg</string>
+		<key>yearsEmployed</key>
+		<integer>2</integer>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -21,16 +23,20 @@
 		<string>Lead iOS Developer</string>
 		<key>imageName</key>
 		<string>tristan.jpeg</string>
+		<key>yearsEmployed</key>
+		<string>2</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Dan Barry</string>
 		<key>job</key>
-		<string>Learn about Square</string>
+		<string>Learn</string>
 		<key>title</key>
 		<string>Newbie</string>
 		<key>imageName</key>
 		<string>dan.jpeg</string>
+		<key>yearsEmployed</key>
+		<string>0</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -41,6 +47,8 @@
 		<string>iOS Developer</string>
 		<key>imageName</key>
 		<string>mike.jpeg</string>
+		<key>yearsEmployed</key>
+		<string>1</string>
 	</dict>
 </array>
 </plist>

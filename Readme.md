@@ -16,5 +16,5 @@ That makes this an *application for an application*. How meta.
 ## Potential Improvements
 
 - Loading and caching of employee information offline
-- More dynamic storage, currently a simple `NSArray` within the App stores employee data. Migration to `CoreData` would be cool.
+- More dynamic storage, currently a simple `NSArray` within the App stores employee data. Migration to CoreData would be cool.
 - Loading and caching of employee images offline using something like [AFNetworking](https://github.com/gowalla/AFNetworking)

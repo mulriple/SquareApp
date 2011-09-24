@@ -135,7 +135,7 @@
 	[_nameLabel setText:[employee name]];
 	[_jobLabel setText:[employee job]];
 	[_titleLabel setText:[employee title]];
-	[_yearsEmployedLabel setText:[NSString stringWithFormat:@"%d Years", (int)[employee yearsEmployed]]];
+	[_yearsEmployedLabel setText:[NSString stringWithFormat:@"%d Year%c", [[employee yearsEmployed] intValue], ([[employee yearsEmployed] intValue] == 1 ? '\0' : 's')]];
 	
 	[_thumbnailImageView setImage:[UIImage imageNamed:[employee imageName]]];
 }

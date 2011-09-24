@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		599D58A9142E702F00033F79 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599D58A8142E702F00033F79 /* Icon@2x.png */; };
+		599D58AB142E703300033F79 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 599D58AA142E703300033F79 /* Icon.png */; };
+		599D58AD142E703800033F79 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 599D58AC142E703800033F79 /* Icon-72.png */; };
 		59A2C6CC1426B32500F7CAD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A2C6CB1426B32500F7CAD5 /* UIKit.framework */; };
 		59A2C6CE1426B32500F7CAD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A2C6CD1426B32500F7CAD5 /* Foundation.framework */; };
 		59A2C6D01426B32500F7CAD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A2C6CF1426B32500F7CAD5 /* CoreGraphics.framework */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		599D58A8142E702F00033F79 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		599D58AA142E703300033F79 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		599D58AC142E703800033F79 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		59A2C6C71426B32500F7CAD5 /* SquareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A2C6CB1426B32500F7CAD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59A2C6CD1426B32500F7CAD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		599D58AE142E704B00033F79 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				599D58AC142E703800033F79 /* Icon-72.png */,
+				599D58AA142E703300033F79 /* Icon.png */,
+				599D58A8142E702F00033F79 /* Icon@2x.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		59A2C6BC1426B32500F7CAD5 = {
 			isa = PBXGroup;
 			children = (
@@ -92,9 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				59A2C6E81426B69400F7CAD5 /* Classes */,
-				59A2C6EE1426BC8900F7CAD5 /* Data */,
-				59A2C6F31427025100F7CAD5 /* Images */,
 				59A2C6D21426B32500F7CAD5 /* Supporting Files */,
+				599D58AE142E704B00033F79 /* Images */,
+				59A2C6EE1426BC8900F7CAD5 /* Data */,
 			);
 			path = SquareApp;
 			sourceTree = "<group>";
@@ -152,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				59A2C6EC1426BB2C00F7CAD5 /* employees.plist */,
+				59A2C6F31427025100F7CAD5 /* Employee Images */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -165,7 +183,7 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		59A2C6F31427025100F7CAD5 /* Images */ = {
+		59A2C6F31427025100F7CAD5 /* Employee Images */ = {
 			isa = PBXGroup;
 			children = (
 				59A2C6F41427035200F7CAD5 /* tristan.jpeg */,
@@ -173,7 +191,7 @@
 				59A2C6F61427035200F7CAD5 /* dan.jpeg */,
 				59A2C6FA1427039A00F7CAD5 /* mike.jpeg */,
 			);
-			name = Images;
+			name = "Employee Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +250,9 @@
 				59A2C6F81427035200F7CAD5 /* jack.jpeg in Resources */,
 				59A2C6F91427035200F7CAD5 /* dan.jpeg in Resources */,
 				59A2C6FB1427039A00F7CAD5 /* mike.jpeg in Resources */,
+				599D58A9142E702F00033F79 /* Icon@2x.png in Resources */,
+				599D58AB142E703300033F79 /* Icon.png in Resources */,
+				599D58AD142E703800033F79 /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +373,7 @@
 				59A2C6E11426B32500F7CAD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
